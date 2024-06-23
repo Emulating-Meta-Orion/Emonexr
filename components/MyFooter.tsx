@@ -102,7 +102,7 @@ const MyFooter = () => {
                 {loading ? 'Sending...' : 'Send'}
               </Button>
             </form>
-            <div className="text-white 2xl:ml-[-900px]">
+            <div className="text-white 2xl:ml-[-700px]">
               <p className="mt-10 mb-2 ml-3">Copyright © 2024 EmoDev</p>
               <p className="ml-6">All rights reserved</p>
             </div>
