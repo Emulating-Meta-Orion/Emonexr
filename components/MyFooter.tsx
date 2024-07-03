@@ -98,7 +98,7 @@ const MyFooter = () => {
                   onBlur={() => setMessageFocused(false)}
                 />
               </div>
-              <Button id="button" type="submit" className="bg-customBlue  text-black w-30 mt-4 py-1 rounded border-blue-400">
+              <Button id="button" type="submit" className="bg-white  text-black w-30 mt-4 py-1 rounded border-blue-400">
                 {loading ? 'Sending...' : 'Send'}
               </Button>
             </form>
