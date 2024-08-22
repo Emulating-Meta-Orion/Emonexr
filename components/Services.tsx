@@ -36,7 +36,7 @@ const Services = () => {
 
   return (
     <section
-      className=" mx-auto w:100%"
+      className=" mx-auto w:100% md:my-20"
       id="service"
     >
 
