@@ -13,9 +13,9 @@ const members = [
     image: "/assets/WhatsApp Image 2024-04-30 at 9.09.37 PM.jpeg",
   },
   {
-    name: "Himasnshu Mahto",
+    name: "Himanshu Mahto",
     role: "Co-Founder",
-    image: "/assets/himanshumahato.jpg",
+    image: "/assets/himanshumahto.jpg",
   },
   {
     name:"Vansh Verma",
