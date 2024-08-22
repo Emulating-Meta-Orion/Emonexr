@@ -5,22 +5,7 @@ const members = [
   {
     name: "Utkarsh Rai",
     role: "Founder",
-    image: "/assets/Utkarsh.webp",
-  },
-  {
-    name: "Vikash Saxena",
-    role: "Co-Founder",
-    image: "/assets/Vikash.jpeg",
-  },
-  {
-    name: "Ankur Srivastava",
-    role: "Co-Founder",
-    image: "/assets/AnkySri.jpg",
-  },
-  {
-    name:"Himanshu K. Mahto",
-    role:"Co-Founder",
-    image:"/assets/himanshumahto.jpg"
+    image: "/assets/ut.jpeg",
   },
   {
     name: "Ashutosh Mishra",
@@ -28,9 +13,19 @@ const members = [
     image: "/assets/WhatsApp Image 2024-04-30 at 9.09.37 PM.jpeg",
   },
   {
+    name: "Himasnshu Mahto",
+    role: "Co-Founder",
+    image: "/assets/himanshumahato.jpg",
+  },
+  {
     name:"Vansh Verma",
-    role:"Full Stack Web Developer",
+    role:"Web(Founding Engineer)",
     image:"/assets/WhatsApp Image 2024-04-28 at 10.29.41 AM.jpeg"
+  },
+  {
+    name: "Vikash Saxena",
+    role: "Unity(Founding Engineer)",
+    image: "/assets/Vikash.jpeg",
   }
 ];
 
