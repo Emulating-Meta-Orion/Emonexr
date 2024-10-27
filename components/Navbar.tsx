@@ -102,7 +102,7 @@ const Navbar = () => {
 
               </li>
               <li>
-                <Link href='https://heavenestate.netlify.app/' className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">Heavens-Estate</Link>
+                <Link href='https://waitilist.heavenestate.emodev.tech/' className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">Heavens-Estate</Link>
 
               </li>
             </ul>
