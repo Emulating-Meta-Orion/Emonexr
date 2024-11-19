@@ -64,7 +64,7 @@ const Navbar = () => {
 
               </li>
               <li>
-                <Link href='https://heaven-state.vercel.app/' className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">Heavens-Estate</Link>
+                <Link href='https://waitlist.ambio.emodev.tech/' className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">Heavens-Estate</Link>
 
               </li>
             </ul>
