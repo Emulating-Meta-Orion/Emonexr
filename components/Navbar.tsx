@@ -64,7 +64,7 @@ const Navbar = () => {
 
               </li>
               <li>
-                <Link href='https://waitlist.ambio.emodev.tech/' className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">Heavens-Estate</Link>
+                <Link href='https://waitlist.ambio.emodev.tech/' className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">Ambio</Link>
 
               </li>
             </ul>
@@ -102,7 +102,7 @@ const Navbar = () => {
 
               </li>
               <li>
-                <Link href='https://waitilist.heavenestate.emodev.tech/' className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">Ambio</Link>
+                <Link href='https://waitlist.ambio.emodev.tech/' className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">Ambio</Link>
 
               </li>
             </ul>
