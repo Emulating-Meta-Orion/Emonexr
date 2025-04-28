@@ -18,7 +18,7 @@ const Project = () => {
             cursorStyle="_"
             typeSpeed={100}
             deleteSpeed={50}
-            delaySpeed={1000}
+            delaySpeed={100}
           />
         </h1>
       )}

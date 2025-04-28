@@ -9,15 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^10.0.7",
+    "@react-three/fiber": "^9.1.2",
+    "@tsparticles/engine": "^3.8.1",
+    "@tsparticles/react": "^3.0.0",
+    "aos": "^2.3.4",
     "emailjs-com": "^3.2.0",
     "flowbite-react": "^0.10.1",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
     "react-simple-typewriter": "^5.0.1",
-    "react-type-animation": "^3.2.0"
+    "react-type-animation": "^3.2.0",
+    "react-typed": "^2.0.12",
+    "three": "^0.176.0"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

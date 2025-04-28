@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { FaXmark, FaBars } from "react-icons/fa6";
 import Link from "next/link";
 import Image from "next/image";
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
@@ -28,10 +29,13 @@ const Navbar = () => {
 
   const navItems = [
     { link: "Home", path: "#home" },
-    { link: "Service", path: "#service" },
-    { link: "About", path: "#about" },
-    { link: "Team", path: "#team" },
-
+    { link: "Why EMO", path: "#why-emo" },
+    // { link: "About", path: "#about" },
+    { link: "What we do", path: "#what-we-do" },
+    { link: "Achievements", path: "#achievements" },
+    { link: "Projects", path: "#projects" },
+    // { link: "Ambio", path: "#ambio" },
+    { link: "Contact", path: "#contact" }
   ];
 
   return (
@@ -44,29 +48,23 @@ const Navbar = () => {
         <nav className="lg:px-14 px-4 border-b-0">
           <div className="flex justify-between items-center text-base gap-8">
             <Link
-              className="text-2xl font-semibold flex items-center space-x-3 w-"
+              className="text-2xl font-semibold flex items-center space-x-3"
               href="/"
             >
               <Image src="/assets/EMO_LOGO.png" width={100} height={32} alt="Logo" />
             </Link>
 
             <ul className="md:flex space-x-12 hidden">
-            {navItems.map(({ link, path }) => (
+              {navItems.map(({ link, path }) => (
                 <li key={path}>
-                <Link href={`/${path}`} className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">{link}</Link>
+                  <Link 
+                    href={path} 
+                    className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer"
+                  >
+                    {link}
+                  </Link>
                 </li>
               ))}
-              <li>
-         <Link href='/project' className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">Projects</Link>
-              </li>
-              <li>
-                <Link href='/achievement' className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">Achievements</Link>
-
-              </li>
-              <li>
-                <Link href='https://waitlist.ambio.emodev.tech/' className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">Ambio</Link>
-
-              </li>
             </ul>
 
             <div className="md:hidden">
@@ -75,9 +73,9 @@ const Navbar = () => {
                 className="text-white focus:outline-none focus:text-gray-500"
               >
                 {isMenuOpen ? (
-                  <FaXmark  />
+                  <FaXmark />
                 ) : (
-                  <FaBars  />
+                  <FaBars />
                 )}
               </button>
             </div>
@@ -88,23 +86,17 @@ const Navbar = () => {
               isMenuOpen ? "bg-black block fixed top-0 right-0 left-0" : "hidden"
             }`}
           >
-          <ul className="md:flex flex-col items-center justify-center bg-black">
-            {navItems.map(({ link, path }) => (
+            <ul className="md:flex flex-col items-center justify-center bg-black">
+              {navItems.map(({ link, path }) => (
                 <li key={path}>
-                <Link href={`/${path}`} className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">{link}</Link>
+                  <Link 
+                    href={path} 
+                    className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer"
+                  >
+                    {link}
+                  </Link>
                 </li>
               ))}
-              <li>
-         <Link href='/project' className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">Projects</Link>
-              </li>
-              <li>
-                <Link href='/achievement' className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">Achievements</Link>
-
-              </li>
-              <li>
-                <Link href='https://waitlist.ambio.emodev.tech/' className="block text-base text-white hover:text-brandPrimary font-bold cursor-pointer">Ambio</Link>
-
-              </li>
             </ul>
           </div>
         </nav>
@@ -112,4 +104,5 @@ const Navbar = () => {
     </div>
   );
 };
-export default Navbar
+
+export default Navbar;
