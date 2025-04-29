@@ -17,14 +17,8 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center gap-6 text-xl">
-            <a href="https://wa.me/yourwhatsappnumber" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="hover:text-green-400 transition duration-300 hover:scale-110">
-              <FaWhatsapp />
-            </a>
             <a href="https://github.com/Emulating-Meta-Orion" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-pink-400 transition duration-300 hover:scale-110">
               <FaGithub />
-            </a>
-            <a href="mailto:emodevelopers@gmail.com" aria-label="Email" className="hover:text-red-400 transition duration-300 hover:scale-110">
-              <FaEnvelope />
             </a>
           </div>
         </div>
