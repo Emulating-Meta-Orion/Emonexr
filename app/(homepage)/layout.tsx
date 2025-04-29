@@ -61,9 +61,6 @@ export default function RootLayout({
           <SectionWithAOS animation="fade-up">
             <section id="contact" className="py-16">
               <div className="container mx-auto px-4">
-                <h2 className="text-4xl text-customBlue font-semibold text-center">
-                  Get in Touch {':)'}  
-                </h2>
                 <Contact />
               </div>
             </section>
