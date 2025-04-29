@@ -30,11 +30,9 @@ const Navbar = () => {
   const navItems = [
     { link: "Home", path: "#home" },
     { link: "Why EMO", path: "#why-emo" },
-    // { link: "About", path: "#about" },
-    { link: "What we do", path: "#what-we-do" },
+    { link: "What we do", path: "#service" },
     { link: "Achievements", path: "#achievements" },
     { link: "Projects", path: "#projects" },
-    // { link: "Ambio", path: "#ambio" },
     { link: "Contact", path: "#contact" }
   ];
 

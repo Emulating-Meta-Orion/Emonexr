@@ -44,7 +44,7 @@ const Services = () => {
 
   return (
     <section
-      className="mx-auto w-full md:my-32"
+      className="scroll-mt-24 mx-auto w-full md:my-32"
       id="service"
     >
       <div className="mt-20 md:w-1/2 mx-auto text-center">
