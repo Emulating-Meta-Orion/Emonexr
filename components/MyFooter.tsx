@@ -11,13 +11,11 @@ const Footer = () => {
             <Image src="/assets/EMO_LOGO.png" alt="Emo Dev Logo" width={120} height={40} className="hover:scale-105 transition-transform duration-300" />
           </div>
 
-          {/* Center - Copyright */}
           <div className="text-center text-gray-500 text-xs">
             <p className="pb-8 text-sm">Built with ❤️ by EMO</p>
             <p>© 2025 Emo Developers. All rights reserved.</p>
           </div>
 
-          {/* Right - Social Links */}
           <div className="flex items-center gap-6 text-xl">
             <a href="https://wa.me/yourwhatsappnumber" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="hover:text-green-400 transition duration-300 hover:scale-110">
               <FaWhatsapp />
