@@ -202,7 +202,7 @@ export default function AchievementCarousel() {
 
   const prevSlide = useCallback(() => {
     navigate((currentIndex - 1 + achievements.length) % achievements.length);
-  }, [currentIndex, navigate, achievements.length]);
+  }, [currentIndex, navigate]);
 
   const handleKeyDown = useCallback((e: { key: any; preventDefault: () => void; }) => {
     switch (e.key) {
