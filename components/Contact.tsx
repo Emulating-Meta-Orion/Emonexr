@@ -5,6 +5,9 @@ import Image from 'next/image';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
+  useEffect(() => {
+    emailjs.init("GuE5-N2-vY81rbKHI");
+  }, []);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -58,15 +61,15 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        'service_wee4tnr',
+        'template_ned7dba',
         {
           from_name: formData.name,
           from_email: formData.email,
           subject: formData.subject,
           message: formData.message
         },
-        'YOUR_PUBLIC_KEY' // Replace with your EmailJS public key (user ID)
+        'GuE5-N2-vY81rbKHI'
       );
       setSubmitStatus('success');
       setFormData({ name: '', email: '', subject: '', message: '' });
