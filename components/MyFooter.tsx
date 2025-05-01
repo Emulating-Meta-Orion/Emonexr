@@ -90,8 +90,8 @@ const Footer = () => {
                 <div className="face back"><HiSparkles className="text-purple-400" /></div>
                 <div className="face right"><HiCursorClick className="text-pink-400" /></div>
                 <div className="face left"><FaGithub className="text-blue-400" /></div>
-                <div className="face top"><FaEnvelope className="text-green-400" /></div>
-                <div className="face bottom"><FaTwitter className="text-yellow-400" /></div>
+                {/*<div className="face top"><FaEnvelope className="text-green-400" /></div>*/}
+                {/*<div className="face bottom"><FaTwitter className="text-yellow-400" /></div>*/}
               </div>
             </div>
           </div>
@@ -114,14 +114,14 @@ const Footer = () => {
                 <FaGithub />
                 <span className="social-tooltip">GitHub</span>
               </a>
-              <a href="mailto:contact@emodevelopers.com" className="social-icon email">
-                <FaEnvelope />
-                <span className="social-tooltip">Email Us</span>
-              </a>
-              <a href="https://twitter.com/emo_developers" target="_blank" rel="noopener noreferrer" className="social-icon twitter">
-                <FaTwitter />
-                <span className="social-tooltip">Twitter</span>
-              </a>
+              {/*<a href="mailto:contact@emodevelopers.com" className="social-icon email">*/}
+              {/*  <FaEnvelope />*/}
+              {/*  <span className="social-tooltip">Email Us</span>*/}
+              {/*</a>*/}
+              {/*<a href="https://twitter.com/emo_developers" target="_blank" rel="noopener noreferrer" className="social-icon twitter">*/}
+              {/*  <FaTwitter />*/}
+              {/*  <span className="social-tooltip">Twitter</span>*/}
+              {/*</a>*/}
               <a href="https://linkedin.com/company/emo-developers" target="_blank" rel="noopener noreferrer" className="social-icon linkedin">
                 <FaLinkedinIn />
                 <span className="social-tooltip">LinkedIn</span>

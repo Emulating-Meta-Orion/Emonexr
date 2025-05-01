@@ -94,19 +94,19 @@ const AchievementCard = ({ achievement, isActive }: { achievement: Achievement; 
           </div>
         </div>
 
-        {achievement.videoLink && (
-            <a 
-              href={achievement.videoLink} 
-              target="_blank"
-              rel="noopener noreferrer" 
-              className="inline-flex items-center text-xs sm:text-sm text-blue-400 hover:text-blue-300 transition-colors duration-300"
-            >
-              <span className="mr-1">Watch Video</span>
-              <svg className="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </a>
-        )}
+        {/*{achievement.videoLink && (*/}
+        {/*    <a */}
+        {/*      href={achievement.videoLink} */}
+        {/*      target="_blank"*/}
+        {/*      rel="noopener noreferrer" */}
+        {/*      className="inline-flex items-center text-xs sm:text-sm text-blue-400 hover:text-blue-300 transition-colors duration-300"*/}
+        {/*    >*/}
+        {/*      <span className="mr-1">Watch Video</span>*/}
+        {/*      <svg className="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">*/}
+        {/*        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />*/}
+        {/*      </svg>*/}
+        {/*    </a>*/}
+        {/*)}*/}
       </div>
     </div>
   );

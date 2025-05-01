@@ -76,7 +76,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ id, title, description, image
           {id === 'ambio' && (
             <div className="cta-container">
               <a 
-                href="https://waitlist.ambio.emodev.tech"
+                href="https://ambio.emodev.tech/#waitlist"
                 className="cta-button"
                 target="_blank"
                 rel="noopener noreferrer"

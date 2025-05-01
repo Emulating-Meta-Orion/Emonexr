@@ -9,7 +9,7 @@ const projects = [
     title: 'Ambio',
     description: 'Ambio is our innovative AR/VR platform that revolutionizes the way users interact with digital content. Using cutting-edge technology, Ambio creates immersive experiences that blend the physical and digital worlds seamlessly. Our platform offers intuitive navigation, realistic interactions, and stunning visual effects, making it the perfect solution for businesses looking to enhance their digital presence.',
     imageSrc: '/Projects/Ambio.png',
-    videoLink: 'https://waitlist.ambio.emodev.tech/',
+    videoLink: 'https://ambio.emodev.tech/#waitlist',
     small: true
   },
   {

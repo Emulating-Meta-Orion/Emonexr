@@ -129,7 +129,7 @@ const Contact = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-customBlue/20 to-purple-500/20 rounded-full blur-2xl pulse-slow"></div>
               
               {/* Image container with explicit dimensions */}
-              {/* <div className="relative z-10 w-full h-full">
+              { <div className="relative z-10 w-full h-full">
                 <Image
                   src="/assets/emofooter.gif"
                   alt="Contact Animation"
@@ -139,14 +139,14 @@ const Contact = () => {
                   className="object-contain rotate-slow h-[100%] w-[100%] animate-float"
                   priority
                 />
-              </div> */}
-              <div className="relative z-10 w-full h-full">
-                <img
-                  src="/assets/emofooter.gif"
-                  alt="Contact Animation"
-                  className="object-contain rotate-slow h-full w-full animate-float"
-                />
-              </div>
+              </div> }
+              {/*<div className="relative z-10 w-full h-full">*/}
+              {/*  <img*/}
+              {/*    src="/assets/emofooter.gif"*/}
+              {/*    alt="Contact Animation"*/}
+              {/*    className="object-contain rotate-slow h-full w-full animate-float"*/}
+              {/*  />*/}
+              {/*</div>*/}
 
               
               {/* Decorative circles */}
