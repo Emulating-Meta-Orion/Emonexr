@@ -116,7 +116,7 @@ const Contact = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-customBlue/50 to-purple-500/50 mx-auto mt-6 rounded-full"></div>
           <p className="text-gray-300 mt-6 max-w-2xl mx-auto text-lg">
-            Have a question or want to work together? Drop us a message and we'll get back to you.
+            Don&apos;t hesitate to reach out!
           </p>
         </div>
 
